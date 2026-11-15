@@ -1,0 +1,19 @@
+{
+  "name": "study-notes",
+  "version": "1.0.0",
+  "description": "Personal subject-categorized study notes with VitePress",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "schedule:import": "node scripts/parse-schedule.js",
+    "new": "node scripts/new-note.js"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  },
+  "dependencies": {
+    "markdown-it-mathjax3": "^4.3.2"
+  }
+}
